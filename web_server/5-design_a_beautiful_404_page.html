@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>404 Not Found</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+        }
+        .icons img {
+            width: 50px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .interactive button {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .interactive button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 0.9em;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Oops! This page is lost in the cloud.</h1>
+        <p>Ceci n'est pas une page</p>
+        <p>The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
+        <div class="icons">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/a/af/DigitalOcean_logo.svg" alt="Digital Ocean">
+            <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub">
+            <img src="https://via.placeholder.com/50" alt="Other Icon">
+        </div>
+        <div class="interactive">
+            <p>Try the following options:</p>
+            <button onclick="window.location.href='/home'">Go to Homepage</button>
+            <button onclick="window.history.back();">Go Back</button>
+        </div>
+        <footer>
+            <p>&copy; 2024 Your Website. All rights reserved.</p>
+            <p>Contact us at <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></p>
+        </footer>
+    </div>
+</body>
+</html>
