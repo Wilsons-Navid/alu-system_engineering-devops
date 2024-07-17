@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#server-01 login
+
+eval $("ssh-agent")
+
+ssh-add /alu-system_engineering-devops/web_server/sever
+
+ssh ubuntu@52.54.144.11
